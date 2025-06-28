@@ -17,7 +17,6 @@ const eslintConfig = [
   ...compat.extends('next/typescript'),
   ...compat.extends('next'),
   // ...compat.extends("plugin:storybook/recommended"),
-  // Deve ser o último para desabilitar regras conflitantes
   ...compat.extends('prettier'),
   {
     plugins: {
