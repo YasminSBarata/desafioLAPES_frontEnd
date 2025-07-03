@@ -3,7 +3,7 @@
     "next/core-web-vitals",
     "next/typescript",
     "next",
-    "prettier",
-    "plugin:storybook/recommended"
+    "prettier"
+    // "plugin:storybook/recommended"
   ]
 }
