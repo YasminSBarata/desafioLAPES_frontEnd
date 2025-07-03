@@ -1,4 +1,5 @@
 import '../src/app/globals.css';
+import '@fontsource/montserrat/latin.css';
 
 const preview = {
   parameters: {
