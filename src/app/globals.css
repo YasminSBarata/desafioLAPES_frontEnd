@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -44,17 +44,16 @@
 }
 
 :root {
-/*Colors*/
---orangePrimary: #FC8A06;
---orangeSecondary: #B76200;
---orangeTertiary: #673700;
+  /*Colors*/
+  --orangePrimary: #fc8a06;
+  --orangeSecondary: #b76200;
+  --orangeTertiary: #673700;
 
---greenPrimary: #028643;
---greenSecondary: #005E2E;
+  --greenPrimary: #028643;
+  --greenSecondary: #005e2e;
 
-/*Font*/
- --font-montserrat: 'Montserrat', sans-serif;
-
+  /*Font*/
+  --font-montserrat: 'Montserrat', sans-serif;
 
   --radius: 0.625rem;
   --background: oklch(1 0 0);
